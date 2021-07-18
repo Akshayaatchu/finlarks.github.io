@@ -38,19 +38,19 @@
     rel="stylesheet"
     href="styles/main.css"
   />
-  <script
-    src="scripts/main.js"
-  ></script>
   <link 
     rel="icon" 
     href="images/logo.jpg"
   />
+  <script
+    src="scripts/main.js"
+  ></script>
 
   <script>
     $(function() {
       main();
       feather.replace();
-    })
+    });
   </script>
 
   <title>
@@ -59,68 +59,40 @@
 </head>
 
 <body>
-  <header>
-    <nav class="navbar fixed-top navbar-expand-md">
+  <header class="theme-static">
+    <nav class="navbar h-100 w-100 p-0">
       <div class="container">
-        <a class="navbar-brand fs-2" href="#">Finlarks</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navlinks">
-          <i data-feather="menu" id="menu-icon"></i>
+        <a class="navbar-brand fs-3 justify-content-start">
+          Finlarks
+        </a>
+        <button class="fs-5 justify-content-end" id="menu-btn">
+          <i class="fas fa-bars"></i>
         </button>
-        <div class="collapse navbar-collapse fs-5 justify-content-end" id="navlinks">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link" hreaf="#about">
-                About
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" hreaf="#contact">
-                Contact
-              </a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="products" role="button" data-bs-toggle="dropdown">
-                Products
-              </a>
-              <ul class="dropdown-menu" aria-labelby="products" id="products-items">
-                <li><a class="dropdown-item">Product 1</a></li>
-                <li><a class="dropdown-item">Product 2</a></li>
-                <li><a class="dropdown-item">Product 3</a></li>
-              </ul>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="services" role="button" data-bs-toggle="dropdown">
-                Services
-              </a>
-              <ul class="dropdown-menu" aria-labelby="services" id="services-items">
-                <li><a class="dropdown-item">Service 1</a></li>
-                <li><a class="dropdown-item">Service 2</a></li>
-                <li><a class="dropdown-item">Service 3</a></li>
-              </ul>
-            </li>
-          </ul>
-        </div>
       </div>
     </nav>
+    <div id="menu-bar">
+      <div class="container py-2" id="menu-con">
+        <ul>
+          <li><a href="#about">About Us</a></li>
+          <li><hr></li>
+          <li><a href="#services">Services</a></li>
+          <li><hr></li>
+          <li><a href="#products">Products</a></li>
+          <li><hr></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><hr></li>
+        </ul>
+      </div>
+    </div>
   </header>
   <main>
     <section id="home" class="d-flex align-items-center">
       <div class="container">
-        <div class="row">
-          <div class="col text-center fs-1">
-            Finlarks
-          </div>
-        </div>
       </div>
     </section>
     <section id="about">
       <div class="container">
-        <div class="row">
-          <div class="col text-center fs-2">
-            About
-          </div>
-          <hr class="w-100">
-        </div>
+        Hello
       </div>
     </section>
   </main>
