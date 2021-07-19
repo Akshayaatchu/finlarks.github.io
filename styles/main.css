@@ -1,8 +1,61 @@
-:root {
-  --nav-bg-color: rgba(0, 0, 0, 0.5);
-  --nav-fg-color: #fff;
-  --def-bg-color: #e6e6e6;
-  --def-fg-color: #333333;
+@media screen and (prefers-color-scheme: dark) {
+  :root {
+    color-scheme: dark;
+
+    --shadow-color: 0, 0, 0;
+    --pri-fg-color: 255, 255, 255;
+    --pri-bg-color: 26, 26, 26;
+    --sec-bg-color: 64, 64, 64;
+  }
+}
+
+@media screen and (prefers-color-scheme: light) {
+  :root {
+    color-scheme: light;
+
+    --shadow-color: 136, 136, 136;
+    --pri-fg-color: 26, 26, 26;
+    --pri-bg-color: 255, 255, 255;
+  }
+}
+
+.pane-box {
+  height: 100%;
+  background-color: rgba(var(--sec-bg-color), 1);
+  box-shadow: 0px 0px 5px rgb(var(--shadow-color));
+}
+
+.pane-box .pane-img {
+  width: 100%;
+  height: 40%;
+}
+
+.pane-box .pane-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.pane-box .pane-txt {
+  width: 100%;
+  height: 60%;
+  padding: 10px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.box-siz-md {
+  max-width: 600px;
+  max-height: 600px;
+}
+
+body {
+  margin: 0%;
+  color: rgba(var(--pri-fg-color), 1);
+  background-color: rgba(var(--pri-bg-color), 1);
 }
 
 header {
@@ -13,12 +66,12 @@ header {
 }
 
 header a {
-  color: var(--nav-fg-color);
+  color: rgba(var(--pri-fg-color));
   text-decoration: none;
 }
 
 header a:hover {
-  color: var(--nav-fg-color);
+  color: rgba(var(--pri-fg-color), 1);
 }
 
 header.theme-static {
@@ -27,13 +80,19 @@ header.theme-static {
 
 header.theme-scroll {
   backdrop-filter: blur(10px);
-  background-color: var(--nav-bg-color);
+  background-color: rgba(var(--sec-bg-color), 0.5);
+}
+
+header nav #logo {
+  width: 50px;
+  height: 50px;
+  padding: 10px;
 }
 
 header nav #menu-btn {
   position: relative;
   border: none;
-  color: var(--nav-fg-color);
+  color: rgba(var(--pri-fg-color), 1);
   background-color: transparent;
   z-index: 100000;
 }
@@ -46,7 +105,7 @@ header #menu-bar {
   right: 0;
   position: fixed;
   color: #fff;
-  background-color: #928DAB;
+  background-color: #04619f;
   transition: width 0.5s linear;
 }
 
@@ -57,16 +116,33 @@ header #menu-bar ul {
 main #home {
   width: 100%;
   height: 100vh;
-  padding-top: 80px;
-  background: #00d2ff;
-  background: -webkit-linear-gradient(to top, #928DAB, #00d2ff);
-  background: linear-gradient(to top, #928DAB, #00d2ff);
+  color: rgba(var(--pri-fg-color), 1);
+  background-color: #000000;
+  background-image: linear-gradient(45deg, #000000, #04619f);
 }
 
 main #about {
   width: 100%;
-  height: 100vh;
   padding-top: 80px;
-  color: var(--def-fg-color);
-  background-color: var(--def-bg-color);
+  color: rgba(var(--pri-fg-color), 1);
+  background-color: rgba(var(--pri-bg-color), 1);
+}
+
+main #services {
+  width: 100%;
+  padding-top: 80px;
+  color: rgba(var(--pri-fg-color), 1);
+  background-color: rgba(var(--pri-bg-color), 1);
+}
+
+main #products {
+  width: 100%;
+  padding-top: 80px;
+  color: rgba(var(--pri-fg-color), 1);
+  background-color: rgba(var(--pri-bg-color), 1);
+}
+
+footer {
+  width: 100%;
+  background-color: rgba(var(--sec-bg-color), 1);
 }
