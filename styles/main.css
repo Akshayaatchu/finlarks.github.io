@@ -155,11 +155,15 @@ main #products #products-bg {
   background-repeat: no-repeat;
 }
 
+main #products #products-bg #products-content-wrapper {
+  height: 100%;
+  width: 100%;
+  backdrop-filter: blur(3px);
+}
+
 main #products #products-bg #products-content {
   max-width: 100%;
-  position: absolute;
   color: white;
-  z-index: 10;
 }
 
 footer {

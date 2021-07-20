@@ -1,7 +1,7 @@
 /**
  * @brief auto text effect for logo
  */
- async function logoTextTypingEffect() {
+async function logoTextTypingEffect() {
     var data = "Fight! Flight! Fright!"
     var logo = $("p#slogan");
     var len  = data.length;
