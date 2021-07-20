@@ -172,26 +172,21 @@ footer a {
   text-decoration: none;
 }
 
-footer #footer-content {
+footer .footer-content {
   margin: 20px;
 }
 
-footer #footer-content p {
+footer .footer-content p {
   font-size: 15px;
   margin: 0;
   font-weight: bold;
 }
 
-footer #footer-content ul {
+footer .footer-content ul {
   font-size: 11px;
 }
 
-footer #footer-content ul li {
+footer .footer-content ul li {
   margin-top: 10px;
   margin-bottom: 10px; 
-}
-
-footer #footer-contact {
-  width: fit-content;
-  padding: 10px;
 }
