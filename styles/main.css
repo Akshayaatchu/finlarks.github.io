@@ -168,7 +168,7 @@ footer {
 }
 
 footer a {
-  color: rgba(var(--sec-fg-color), 1);
+  color: rgba(var(--pri-fg-color), 1);
   text-decoration: none;
 }
 
