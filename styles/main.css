@@ -156,6 +156,7 @@ main #products #products-bg {
 }
 
 main #products #products-bg #products-content {
+  max-width: 100%;
   position: absolute;
   color: white;
   z-index: 10;
