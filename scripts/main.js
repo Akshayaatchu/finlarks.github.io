@@ -1,7 +1,7 @@
 /**
- * @brief auto text effect for logo
+ * @brief auto text effect for slogan
  */
-async function logoTextTypingEffect() {
+async function sloganTextTypingEffect() {
     var data = "Fight! Flight! Fright!"
     var logo = $("p#slogan");
     var len  = data.length;
@@ -49,14 +49,28 @@ function menuToggle(evt) {
 }
 
 /**
+ * @brief Smooth scroll
+ */
+function smoothScroll(evt) {
+    evt.preventDefault();
+    var target = $(evt.target);
+    var toppos = $(target.attr("href")).offset().top;
+
+    $('html, body').animate({
+        scrollTop: toppos
+    }, 500);
+}
+
+/**
  * @brief main function
  */
 function main() {
     // Start Page animations
-    logoTextTypingEffect();
+    sloganTextTypingEffect();
     $("#menu-con").hide();
 
     // Add Event Listeners
     $(window).on("scroll", scrollEvent);
     $("#menu-btn").on('click', menuToggle);
+    $("a[href^='#'").on('click', smoothScroll);
 }
