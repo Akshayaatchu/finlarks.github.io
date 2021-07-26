@@ -3,6 +3,10 @@ body {
     height: 100vh;
     margin: 0%;
     background: url("../assets/images/soon.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: cover;
 }
 
 body .soon-container {
