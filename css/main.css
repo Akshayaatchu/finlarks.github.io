@@ -70,6 +70,7 @@ header a {
 
 header a:hover {
   color: white;
+  text-decoration: underline;
 }
 
 header.theme-static {
@@ -179,6 +180,12 @@ footer a {
 
 footer a:hover {
   color: rgba(var(--pri-fg-color), 1);
+  text-decoration: underline;
+}
+
+footer a.icon:hover {
+  color: rgba(var(--pri-fg-color), 1);
+  text-decoration: none;
 }
 
 footer .footer-content {

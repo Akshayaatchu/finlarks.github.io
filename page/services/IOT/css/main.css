@@ -57,8 +57,14 @@ footer a {
   text-decoration: none;
 }
 
+footer a.icon:hover {
+  color: rgba(var(--pri-fg-color), 1);
+  text-decoration: none;
+}
+
 footer a:hover {
   color: rgba(var(--pri-fg-color), 1);
+  text-decoration: underline;
 }
 
 footer .footer-content {
