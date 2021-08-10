@@ -27,7 +27,9 @@
     <script src="https://unpkg.com/feather-icons"></script>
     <script src="lib/particles/particles.min.js"></script>
     
+    <meta name="content-Type" content="text/html; charset=utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" http-equiv="X-UA-Compatible" content="IE=edge, chrome=1" />
 
     <link rel="stylesheet" href="styles/main.css" />
     <script src="scripts/main.js"> </script>
@@ -52,11 +54,6 @@
       <nav class="navbar fixed-top">
         <div class="container">
           <a class="navbar-brand fs-2" href="#">Finlarks</a>
-          <ul class="navbar-nav justify-content-end">
-            <li class="nav-item">
-              <a class="nav-link fs-2" href="pages/contact.php">contact</a>
-            </li>
-          </ul>
         </div>
       </nav>
     </header>
