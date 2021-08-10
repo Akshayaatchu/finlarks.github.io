@@ -76,7 +76,7 @@
               </div>
             </div>
             <div class="col-md-12 col-lg-6 p-3">
-              <div class="wrapper">
+              <div class="img-wrapper">
                 <img class="img-fluid" src="assets/images/Home.png" alt="Home" />
               </div>
             </div>
@@ -88,12 +88,12 @@
         <div class="container z-top">
           <div class="row">
             <div class="col-md-12 col-lg-6 p-3">
-              <div class="wrapper">
+              <div class="txt-wrapper">
                 <span>
-                  <h1 class="fs-1 mb-4">
+                  <h1 class="fs-3 mb-4">
                     About Us
                   </h1>
-                  <p class="fs-5 mt-4">
+                  <p class="mt-4">
                     We are a technological concern focused on Cloud Application
                     Services(PaaS, SaaS), Cyber Security, Software Development, 
                     IoT and CAD/CAM/CNC Technology. We pursue this passion through 
@@ -105,7 +105,7 @@
               </div>
             </div>
             <div class="col-md-12 col-lg-6 p-3">
-              <div class="wrapper">
+              <div class="img-wrapper">
                 <img class="img-fluid" src="assets/images/about.png" alt="Home" />
               </div>
             </div>
@@ -117,17 +117,17 @@
         <div class="container z-top">
           <div class="row">
             <div class="col-md-12 col-lg-6 p-3">
-              <div class="wrapper">
+              <div class="img-wrapper">
                 <img class="img-fluid" src="assets/images/dev.png" alt="Development" />
               </div>
             </div>
             <div class="col-md-12 col-lg-6 p-3">
-              <div class="wrapper">
+              <div class="txt-wrapper">
                 <span>
-                  <h1 class="fs-1 mb-4">
+                  <h1 class="fs-3 mb-4">
                     Software Development
                   </h1>
-                  <p class="fs-5 mt-4">
+                  <p class="mt-4">
                     We are dedicated to the process of creating, designing, deploying
                     and supporting software on many software disciplines.
                   </p>
@@ -145,12 +145,12 @@
         <div class="container z-top">
           <div class="row">
             <div class="col-md-12 col-lg-6 p-3">
-              <div class="wrapper">
+              <div class="txt-wrapper">
                 <span>
-                  <h1 class="fs-1 mb-4">
+                  <h1 class="fs-3 mb-4">
                     Cyber Security
                   </h1>
-                  <p class="fs-5 mt-4">
+                  <p class="mt-4">
                     We Provide Cyber Security that encompasses all the technical and
                     procedural safeguards to keep devices, computer systems, and 
                     sensitive information safe.
@@ -162,7 +162,7 @@
               </div>
             </div>
             <div class="col-md-12 col-lg-6 p-3">
-              <div class="wrapper">
+              <div class="img-wrapper">
                 <img class="img-fluid" src="assets/images/seq.png" alt="Security" />
               </div>
             </div>
@@ -174,17 +174,17 @@
         <div class="container z-top">
           <div class="row">
             <div class="col-md-12 col-lg-6 p-3">
-              <div class="wrapper">
+              <div class="img-wrapper">
                 <img class="img-fluid" src="assets/images/iot.png" alt="IoT"/>
               </div>
             </div>
             <div class="col-md-12 col-lg-6 p-3">
-              <div class="wrapper">
+              <div class="txt-wrapper">
                 <span>
-                  <h1 class="fs-1 mb-4">
+                  <h1 class="fs-3 mb-4">
                     Internet of Things
                   </h1>
-                  <p class="fs-5 mt-4">
+                  <p class="mt-4">
                     We are providing services as physical mechanics embedded with
                     sensors, actuators connected with the internet and data in
                     the cloud.
@@ -203,12 +203,12 @@
         <div class="container z-top">
           <div class="row">
             <div class="col-md-12 col-lg-6 p-3">
-              <div class="wrapper">
+              <div class="txt-wrapper">
                 <span>
-                  <h1 class="fs-1 mb-4">
+                  <h1 class="fs-3 mb-4">
                     CAD/CAM/CNC
                   </h1>
-                  <p class="fs-5 mt-4">
+                  <p class="mt-4">
                     We provide a full range of CAD Services including Conversion,
                     2D Drafting, 3D Modeling, Rendering, Animation and Sketchup.
                   </p>
