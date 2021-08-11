@@ -51,6 +51,15 @@
   align-items: center;
 }
 
+.txt-wrapper, .img-wrapper {
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.in-view {
+  opacity: 1;
+}
+
 html {
   scroll-snap-type: y mandatory;
   scroll-snap-stop: always;

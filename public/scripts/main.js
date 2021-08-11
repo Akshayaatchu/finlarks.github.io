@@ -21,13 +21,9 @@
 function viewOnScroll(entities, observer) {
     for(let entity of entities) {
         if(entity.isIntersecting) {
-            $(entity.target).animate({
-                opacity: 1
-            }, 1000, 'swing');
+            $(entity.target).addClass('in-view');
         } else {
-            $(entity.target).animate({
-                opacity: 0
-            }, 1000, 'swing');
+            $(entity.target).removeClass('in-view');
         }
     }
 }
@@ -41,7 +37,7 @@ function main() {
     
     // Add Intersetion observer
     var observer = new IntersectionObserver(viewOnScroll, {
-        threshold: 0.5,
+        threshold: 1,
     });
 
     // Add elements to observe
