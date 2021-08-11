@@ -35,6 +35,7 @@
   margin-left: auto;
   margin-right: auto;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
@@ -48,6 +49,23 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.txt-wrapper, .img-wrapper {
+  opacity: 0;
+}
+
+.fade-in-animation {
+  animation: fade-in 1s;
 }
 
 html {

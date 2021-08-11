@@ -16,8 +16,36 @@
 }
 
 /**
+ * comes into view on scroll
+ */
+function viewOnScroll(entities, observer) {
+    for(let entity of entities) {
+        if(entity.isIntersecting) {
+            $(entity.target).addClass("fade-in-animation");
+        } else {
+            $(entity.target).removeClass("fade-in-animation");
+        }
+    }
+}
+
+/**
  * main function
  */
 function main() {
+    // Add Event listeners
     $(document).on('click', 'a', anchorClick);
+    
+    // Add Intersetion observer
+    var observer = new IntersectionObserver(viewOnScroll, {
+        threshold: 0.5,
+    });
+
+    // Add elements to observe
+    $(".txt-wrapper").each(function() {
+        observer.observe(this);
+    });
+
+    $(".img-wrapper").each(function() {
+        observer.observe(this);
+    });
 }

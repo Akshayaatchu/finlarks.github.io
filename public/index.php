@@ -64,12 +64,14 @@
           <div class="row">
             <div class="col-md-12 col-lg-6 p-3">
               <div class="w-100 h-100 d-flex flex-column align-items-center justify-content-center">
-                <h1 class="text-center">
-                  <span class="fs-1">Finlarks</span>
-                </h1>
-                <p class="text-center fs-4">
-                  Connect with Us Today !
-                </p>
+                <div class="txt-wrapper">
+                  <h1 class="text-center">
+                    <span class="fs-1">Finlarks</span>
+                  </h1>
+                  <p class="text-center fs-4">
+                    Connect with Us Today !
+                  </p>
+                </div>
               </div>
             </div>
             <div class="col-md-12 col-lg-6 p-3">
