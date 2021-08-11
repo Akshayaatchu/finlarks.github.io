@@ -21,9 +21,13 @@
 function viewOnScroll(entities, observer) {
     for(let entity of entities) {
         if(entity.isIntersecting) {
-            $(entity.target).addClass("fade-in-animation");
+            $(entity.target).animate({
+                opacity: 1
+            }, 1000, 'swing');
         } else {
-            $(entity.target).removeClass("fade-in-animation");
+            $(entity.target).animate({
+                opacity: 0
+            }, 1000, 'swing');
         }
     }
 }
