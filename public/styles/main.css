@@ -118,6 +118,8 @@ main #cad {
 }
 
 footer {
+  min-height: 100vh;
+  padding-top: 100px;
   color: white;
   background-color: #12232E;
   scroll-snap-align: end;
