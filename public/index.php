@@ -215,6 +215,9 @@
               </div>
             </div>
             <div class="col-md-12 col-lg-6 p-3">
+              <div class="img-wrapper">
+                <img class="img-fluid" src="assets/images/cad.png" alt="IoT"/>
+              </div>
             </div>
           </div>
         </div>

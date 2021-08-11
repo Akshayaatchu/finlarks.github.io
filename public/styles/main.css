@@ -69,7 +69,6 @@ main #home, main #about, main #dev, main #seq, main #iot, main #cad{
   padding-top: 90px;
   position: relative;
   scroll-snap-align: center;
-  scroll-snap-stop: always;
 }
 
 main #home {
