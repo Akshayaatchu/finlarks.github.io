@@ -50,9 +50,13 @@
   align-items: center;
 }
 
-html, body {
-  margin: 0%;
+html {
   scroll-snap-type: y mandatory;
+  scroll-snap-stop: always;
+}
+
+body {
+  margin: 0%;
 }
 
 header nav a {
@@ -73,9 +77,9 @@ main #home, main #about, main #dev, main #seq, main #iot, main #cad{
 
 main #home {
   color: white;
-  background: #00d2ff;
-  background: -webkit-linear-gradient(to right, #928DAB, #00d2ff);
-  background: linear-gradient(to right, #00d2ff, #928DAB);
+  background: #007CC7;
+  background: radial-gradient(ellipse at top left,#007CC7 60%, #12232E 20%);
+  background-size:120% 100%;
 }
 
 main #about {
@@ -101,4 +105,10 @@ main #iot {
 main #cad {
   color: white;
   background-color: #2980b9;
+}
+
+footer {
+  color: white;
+  background-color: #12232E;
+  scroll-snap-align: end;
 }

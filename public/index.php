@@ -31,6 +31,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link rel="stylesheet" href="styles/main.css" />
+    <link rel="stylesheet" href="include/footer/footer.css" />
     <script src="scripts/main.js"> </script>
 
     <script>
@@ -224,7 +225,7 @@
       </section>
     </main>
     <footer>
-      <?php include "include/footer.php" ?>
+      <?php include "include/footer/footer.php" ?>
     </footer>
   </body>
 </html>
