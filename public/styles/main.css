@@ -122,5 +122,5 @@ footer {
   padding-top: 100px;
   color: white;
   background-color: #12232E;
-  scroll-snap-align: end;
+  scroll-snap-align: center;
 }
