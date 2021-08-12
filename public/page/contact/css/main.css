@@ -5,3 +5,74 @@
  * https://opensource.org/licenses/MIT
  */
 
+@media (prefers-color-scheme: dark) {
+  :root {
+    color-scheme: dark;
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color-scheme: light;
+  }
+}
+
+.particles canvas {
+  width: 100%;
+  height: 100%;
+  top: 0%;
+  position: absolute;
+  z-index: 0;
+}
+
+.z-top {
+  z-index: 1;
+}
+
+.img-wrapper {
+  max-width: 300px;
+  max-height: 300px;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+html, body {
+  margin: 0%;
+  scroll-snap-type: y mandatory;
+  scroll-snap-stop: always;
+}
+
+header nav a {
+  color: #fff !important;
+}
+
+header nav a:hover {
+  color: #fff !important;
+  border: white;
+}
+
+main #home {
+  min-height: 100vh;
+  padding-top: 90px;
+  position: relative;
+  scroll-snap-align: center;
+  scroll-snap-stop: always;
+}
+
+main #home {
+  color: white;
+  background-color: #E94057;
+}
+
+footer {
+  min-height: 100vh;
+  padding-top: 100px;
+  color: white;
+  background-color: #12232E;
+  scroll-snap-align: center;
+  scroll-snap-stop: always;
+}

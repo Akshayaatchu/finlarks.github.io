@@ -52,7 +52,7 @@
   <body>
     <header>
       <nav class="navbar fixed-top">
-        <div class="container">
+        <div class="container z-top">
           <a class="navbar-brand fs-3" href="/">Finlarks</a>
         </div>
       </nav>

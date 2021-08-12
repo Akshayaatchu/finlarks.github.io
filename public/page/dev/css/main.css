@@ -114,4 +114,5 @@ footer {
   color: white;
   background-color: #12232E;
   scroll-snap-align: center;
+  scroll-snap-stop: always;
 }

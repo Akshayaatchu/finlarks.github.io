@@ -58,7 +58,7 @@
                         <a href="">News</a>
                     </li>
                     <li class="list-group-item border-0">
-                        <a href="">Contact</a>
+                        <a href="/page/contact/">Contact</a>
                     </li>
                 </ul>
             </div>

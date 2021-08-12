@@ -37,7 +37,7 @@ function main() {
     
     // Add Intersetion observer
     var observer = new IntersectionObserver(viewOnScroll, {
-        threshold: 1,
+        threshold: 0.5,
     });
 
     // Add elements to observe
