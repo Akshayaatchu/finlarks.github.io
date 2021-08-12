@@ -105,7 +105,7 @@
                   </p>
                   <div class="container-fluid p-0">
                     <div class="row">
-                      <div class="col-md-6">
+                      <div class="col-6">
                         <span>
                           <h5 class="mb-4">
                             Languages
@@ -118,7 +118,7 @@
                           </ul>
                         </span>
                       </div>
-                      <div class="col-md-6">
+                      <div class="col-6">
                       <span>
                           <h5 class="mb-4">
                             Tools
@@ -156,7 +156,7 @@
                   </p>
                   <div class="container-fluid p-0">
                     <div class="row">
-                      <div class="col-md-6">
+                      <div class="col-6">
                         <span>
                           <h5 class="mb-4">
                             Languages
@@ -171,7 +171,7 @@
                           </ul>
                         </span>
                       </div>
-                      <div class="col-md-6">
+                      <div class="col-6">
                       <span>
                           <h5 class="mb-4">
                             Tools
@@ -221,7 +221,7 @@
                   </p>
                   <div class="container-fluid p-0">
                     <div class="row">
-                      <div class="col-md-6">
+                      <div class="col-6">
                         <span>
                           <h5 class="mb-4">
                             Languages
@@ -233,7 +233,7 @@
                           </ul>
                         </span>
                       </div>
-                      <div class="col-md-6">
+                      <div class="col-6">
                       <span>
                           <h5 class="mb-4">
                             Tools
@@ -270,7 +270,7 @@
                   </p>
                   <div class="container-fluid p-0">
                     <div class="row">
-                      <div class="col-md-6">
+                      <div class="col-6">
                         <span>
                           <h5 class="mb-4">
                             Languages
@@ -284,7 +284,7 @@
                           </ul>
                         </span>
                       </div>
-                      <div class="col-md-6">
+                      <div class="col-6">
                       <span>
                           <h5 class="mb-4">
                             Tools
