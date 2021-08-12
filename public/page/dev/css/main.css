@@ -80,6 +80,7 @@ main #home, main #website, main #webapp, main #mobileapp, main #deskapp {
   padding-top: 90px;
   position: relative;
   scroll-snap-align: center;
+  scroll-snap-stop: always;
 }
 
 main #home {

@@ -63,7 +63,6 @@
 html, body {
   margin: 0%;
   scroll-snap-type: y mandatory;
-  scroll-snap-stop: always;
 }
 
 header nav a {
@@ -80,6 +79,7 @@ main #home, main #about, main #dev, main #seq, main #iot, main #cad{
   padding-top: 90px;
   position: relative;
   scroll-snap-align: center;
+  scroll-snap-stop: always;
 }
 
 main #home {
