@@ -4,7 +4,7 @@
             <div class="p-2">
                 <ul class="list-group border-0">
                     <li class="list-group-item border-0">
-                        <p class="h5">Services</p>
+                        <p class="h4">Services</p>
                     </li>
                     <li class="list-group-item border-0">
                         <a href="">Software Development</a>
@@ -25,7 +25,7 @@
             <div class="p-2">
                 <ul class="list-group border-0">
                     <li class="list-group-item border-0">
-                        <p class="h5">Connect with Us</p>
+                        <p class="h4">Connect</p>
                     </li>
                     <li class="list-group-item border-0">
                         <a href="">Github</a>
@@ -46,7 +46,7 @@
             <div class="p-2">
                 <ul class="list-group border-0">
                     <li class="list-group-item border-0">
-                        <p class="h5">About Us</p>
+                        <p class="h4">About</p>
                     </li>
                     <li class="list-group-item border-0">
                         <a href="">Peoples</a>

@@ -38,11 +38,11 @@
       $(function() {
         main();
         particlesJS.load('home-particles', 'assets/home.json');
-        particlesJS.load('about-particles', 'assets/about.json');
-        particlesJS.load('dev-particles', 'assets/dev.json');
-        particlesJS.load('seq-particles', 'assets/seq.json');
-        particlesJS.load('iot-particles', 'assets/iot.json');
-        particlesJS.load('cad-particles', 'assets/cad.json');
+        particlesJS.load('about-particles', 'assets/hex-red.json');
+        particlesJS.load('dev-particles', 'assets/tri-blue.json');
+        particlesJS.load('seq-particles', 'assets/hex-pink.json');
+        particlesJS.load('iot-particles', 'assets/tri-green.json');
+        particlesJS.load('cad-particles', 'assets/hex-blue.json');
         feather.replace();
       });
     </script>
@@ -130,7 +130,7 @@
                     We are dedicated to the process of creating, designing, deploying
                     and supporting software on many software disciplines.
                   </p>
-                  <a class="btn btn-primary">
+                  <a href="page/dev/" class="btn btn-primary">
                     Learn More >  
                   </a>
                 </span>

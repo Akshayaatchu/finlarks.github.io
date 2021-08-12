@@ -75,7 +75,7 @@ header nav a:hover {
   border: white;
 }
 
-main #home, main #about, main #dev, main #seq, main #iot, main #cad{
+main #home, main #website, main #webapp, main #mobileapp, main #deskapp {
   min-height: 100vh;
   padding-top: 90px;
   position: relative;
@@ -84,32 +84,25 @@ main #home, main #about, main #dev, main #seq, main #iot, main #cad{
 
 main #home {
   color: white;
-  background: #007CC7;
-  background: radial-gradient(ellipse at top left,#007CC7 60%, #12232E 20%);
-  background-size:120% 100%;
-}
-
-main #about {
-  color: white;
-  background-color: #E94057;
-}
-
-main #dev {
-  color: white;
   background-color: #6441A5;
 }
 
-main #seq {
+main #website {
   color: white;
   background-color: #ff00cc;
 }
 
-main #iot {
+main #webapp {
   color: white;
   background-color: #34e89e;
 }
 
-main #cad {
+main #mobileapp {
+  color: white;
+  background-color: #E94057;
+}
+
+main #deskapp {
   color: white;
   background-color: #2980b9;
 }
