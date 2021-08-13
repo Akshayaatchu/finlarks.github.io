@@ -7,16 +7,16 @@
                         <p class="h4">Services</p>
                     </li>
                     <li class="list-group-item border-0">
-                        <a href="">Software Development</a>
+                        <a href="page/dev/">Software Development</a>
                     </li>
                     <li class="list-group-item border-0">
-                        <a href="">Cyber Security</a>
+                        <a href="#">Cyber Security</a>
                     </li>
                     <li class="list-group-item border-0">
-                        <a href="">Internet of Things</a>
+                        <a href="#">Internet of Things</a>
                     </li>
                     <li class="list-group-item border-0">
-                        <a href="">CAD/CAM/CNC</a>
+                        <a href="#">CAD/CAM/CNC</a>
                     </li>
                 </ul>
             </div>
@@ -28,16 +28,16 @@
                         <p class="h4">Connect</p>
                     </li>
                     <li class="list-group-item border-0">
-                        <a href="">Github</a>
+                        <a href="https://github.com/finlarks">Github</a>
                     </li>
                     <li class="list-group-item border-0">
-                        <a href="">Twitter</a>
+                        <a href="https://twitter.com/finlarks">Twitter</a>
                     </li>
                     <li class="list-group-item border-0">
-                        <a href="">Instagram</a>
+                        <a href="https://www.instagram.com/finlarks/">Instagram</a>
                     </li>
                     <li class="list-group-item border-0">
-                        <a href="">Support</a>
+                        <a href="mailto:support@finlarks.com">Support</a>
                     </li>
                 </ul>
             </div>
@@ -49,13 +49,13 @@
                         <p class="h4">About</p>
                     </li>
                     <li class="list-group-item border-0">
-                        <a href="">Peoples</a>
+                        <a href="#">Peoples</a>
                     </li>
                     <li class="list-group-item border-0">
-                        <a href="">Relations</a>
+                        <a href="#">Relations</a>
                     </li>
                     <li class="list-group-item border-0">
-                        <a href="">News</a>
+                        <a href="#">News</a>
                     </li>
                     <li class="list-group-item border-0">
                         <a href="/page/contact/">Contact</a>
