@@ -3,7 +3,7 @@
 /**
  * Load Dependencies
  */
-require_once "C:\\Users\\srilakshmikanthanp\\Source Code\\finlarks.github.io\\vendor\autoload.php";
+require_once __DIR__ . "/../vendor/autoload.php";
 
 /**
  * utility class
@@ -56,23 +56,32 @@ class Utility
     {
       // $mail->SMTPDebug  = PHPMailer\PHPMailer\SMTP::DEBUG_SERVER;
       $mail->isSMTP();
-      $mail->Host       = '';
+      $mail->Host       = 'smtpout.secureserver.net';
       $mail->SMTPAuth   = true;
-      $mail->Username   = '';
-      $mail->Password   = '';
+      $mail->Username   = $_ENV["MAIL_USERNAME"];
+      $mail->Password   = $_ENV["MAIL_PASSWORW"];
       $mail->SMTPSecure = PHPMailer\PHPMailer\PHPMailer::ENCRYPTION_SMTPS;
       $mail->Port       = 465;
 
       // Recipients
-      $mail->setFrom('srilakshmikanthanp@gmail.com', 'Mailer');
+      $mail->setFrom('support@finlarks.com', 'Finlakrs Support');
       $mail->addAddress('srilakshmikanthanp@gmail.com', 'Sri Lakshmi Kanthan P');
       $mail->addAddress('mohamedishak440@gmail.com', 'Mohamed Ishak');
       $mail->addReplyTo($email, $name);
 
       // Content
-      // $mail->isHTML(true);
-      $mail->Subject = "Query from $name<$email;$phone>";
-      $mail->Body    = $query;
+      $mail->isHTML(true);
+      $mail->Subject = "Query from $name";
+      $mail->Body    = "
+        <h1>Query from $name</h1>
+        <p>
+          <strong>Name :</strong> $name<br>
+          <strong>Email :</strong> $email<br>
+          <strong>Phone :</strong> $phone<br>
+        </p>
+        <h1>Query:</h1>
+        <p>$query</p>
+      ";
 
       // send
       $mail->send();
