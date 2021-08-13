@@ -29,6 +29,63 @@ function viewOnScroll(entities, observer) {
 }
 
 /**
+ * loads particles
+ */
+ function loadParticles() {
+    function colorParticles(color) {
+        let option = Object.assign(particlesJson, {});
+        option.particles.color = color;
+        return option;
+    }
+
+    function incDarkness(color, percent = 10) {
+        let c = tinycolor(color).darken(percent).toRgbString();
+        return c;
+    }
+
+    $("#particles-home").particles().init(
+        colorParticles(
+            incDarkness(
+                $("#home").css("background-color")
+            )
+        )
+    );
+
+    $("#particles-website").particles().init(
+        colorParticles(
+            incDarkness(
+                $("#website").css("background-color")
+            )
+        )
+    );
+
+    $("#particles-webapp").particles().init(
+        colorParticles(
+            incDarkness(
+                $("#webapp").css("background-color")
+            )
+        )
+    );
+
+    $("#particles-mobileapp").particles().init(
+        colorParticles(
+            incDarkness(
+                $("#mobileapp").css("background-color")
+            )
+        )
+    );
+
+    $("#particles-deskapp").particles().init(
+        colorParticles(
+            incDarkness(
+                $("#deskapp").css("background-color")
+            )
+        )
+    );
+}
+
+
+/**
  * main function
  */
 function main() {
@@ -48,4 +105,7 @@ function main() {
     $(".img-wrapper").each(function() {
         observer.observe(this);
     });
+
+    // Load particles
+    loadParticles();
 }

@@ -120,8 +120,34 @@ function onSubmit(evt) {
 }
 
 /**
+ * loads particles
+ */
+ function loadParticles() {
+    function colorParticles(color) {
+        let option = Object.assign(particlesJson, {});
+        option.particles.color = color;
+        return option;
+    }
+
+    function incDarkness(color, percent = 10) {
+        let c = tinycolor(color).darken(percent).toRgbString();
+        return c;
+    }
+
+    $("#particles-home").particles().init(
+        colorParticles(
+            incDarkness(
+                $("#home").css("background-color")
+            )
+        )
+    );
+}
+
+
+/**
  * main function
  */
 function main() {
     $("#form").submit(onSubmit);
+    loadParticles();
 }

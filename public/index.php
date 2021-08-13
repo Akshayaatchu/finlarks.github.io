@@ -25,24 +25,25 @@
       crossorigin="anonymous"
     />
     <script src="https://unpkg.com/feather-icons"></script>
-    <script src="lib/particles/particles.min.js"></script>
-    
+    <script src="https://cdn.jsdelivr.net/npm/tsparticles"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-particles"></script>
+    <script 
+      src="https://cdnjs.cloudflare.com/ajax/libs/tinycolor/1.4.2/tinycolor.min.js"
+      integrity="sha512-+aXA9mgbUvFe0ToTlbt8/3vT7+nOgUmFw29wfFCsGoh8AZMRSU0p4WtOvC1vkF2JBrndPN2TuNZsHPAKPPxe8Q==" 
+      crossorigin="anonymous" referrerpolicy="no-referrer"
+    ></script>
+
     <meta name="content-Type" content="text/html; charset=utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
+    
     <link rel="stylesheet" href="styles/main.css" />
     <link rel="stylesheet" href="include/footer/footer.css" />
     <script src="scripts/main.js"> </script>
+    <script src="/assets/js/particlesData.js"> </script>
 
     <script>
       $(function() {
         main();
-        particlesJS.load('home-particles', 'assets/home.json');
-        particlesJS.load('about-particles', 'assets/hex-red.json');
-        particlesJS.load('dev-particles', 'assets/tri-blue.json');
-        particlesJS.load('seq-particles', 'assets/hex-pink.json');
-        particlesJS.load('iot-particles', 'assets/tri-green.json');
-        particlesJS.load('cad-particles', 'assets/hex-blue.json');
         feather.replace();
       });
     </script>
@@ -59,7 +60,7 @@
     </header>
     <main>
       <section id="home" class="d-flex align-items-center justify-content-center">
-        <div class="particles" id="home-particles"></div>
+        <div class="particles" id="particles-home"></div>
         <div class="container z-top">
           <div class="row">
             <div class="col-md-12 col-lg-6 p-3">
@@ -83,7 +84,7 @@
         </div>
       </section>
       <section id="about" class="d-flex align-items-center justify-content-center">
-        <div class="particles" id="about-particles"></div>
+        <div class="particles" id="particles-about"></div>
         <div class="container z-top">
           <div class="row">
             <div class="col-md-12 col-lg-6 p-3">
@@ -112,7 +113,7 @@
         </div>
       </section>
       <section id="dev" class="d-flex align-items-center justify-content-center">
-        <div class="particles" id="dev-particles"></div>
+        <div class="particles" id="particles-dev"></div>
         <div class="container z-top">
           <div class="row">
             <div class="col-md-12 col-lg-6 p-3">
@@ -140,7 +141,7 @@
         </div>
       </section>
       <section id="seq" class="d-flex align-items-center justify-content-center">
-        <div class="particles" id="seq-particles"></div>
+        <div class="particles" id="particles-seq"></div>
         <div class="container z-top">
           <div class="row">
             <div class="col-md-12 col-lg-6 p-3">
@@ -169,7 +170,7 @@
         </div>
       </section>
       <section id="iot" class="d-flex align-items-center justify-content-center">
-        <div class="particles" id="iot-particles"></div>
+        <div class="particles" id="particles-iot"></div>
         <div class="container z-top">
           <div class="row">
             <div class="col-md-12 col-lg-6 p-3">
@@ -198,7 +199,7 @@
         </div>
       </section>
       <section id="cad" class="d-flex align-items-center justify-content-center">
-        <div class="particles" id="cad-particles"></div>
+        <div class="particles" id="particles-cad"></div>
         <div class="container z-top">
           <div class="row">
             <div class="col-md-12 col-lg-6 p-3">
