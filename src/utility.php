@@ -59,7 +59,7 @@ class Utility
       $mail->Host       = 'smtpout.secureserver.net';
       $mail->SMTPAuth   = true;
       $mail->Username   = getenv("MAIL_USERNAME");
-      $mail->Password   = getenv("MAIL_PASSWORW");
+      $mail->Password   = getenv("MAIL_PASSWORD");
       $mail->SMTPSecure = PHPMailer\PHPMailer\PHPMailer::ENCRYPTION_SMTPS;
       $mail->Port       = 465;
 
