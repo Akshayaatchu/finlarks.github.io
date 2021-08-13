@@ -60,6 +60,10 @@
   opacity: 1;
 }
 
+html {
+  height: -webkit-fill-available;
+}
+
 html, body {
   margin: 0%;
   scroll-snap-type: y mandatory;
@@ -81,6 +85,7 @@ main #home, main #website, main #webapp, main #mobileapp, main #deskapp {
   position: relative;
   scroll-snap-align: center;
   scroll-snap-stop: always;
+  min-height: -webkit-fill-available;
 }
 
 main #home {
