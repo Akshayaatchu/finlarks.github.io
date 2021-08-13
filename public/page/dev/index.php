@@ -25,7 +25,14 @@
       crossorigin="anonymous"
     />
     <script src="https://unpkg.com/feather-icons"></script>
-    <script src="/lib/particles/particles.min.js"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <script src="https://cdn.jsdelivr.net/npm/tsparticles"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-particles"></script>
+    <script 
+      src="https://cdnjs.cloudflare.com/ajax/libs/tinycolor/1.4.2/tinycolor.min.js"
+      integrity="sha512-+aXA9mgbUvFe0ToTlbt8/3vT7+nOgUmFw29wfFCsGoh8AZMRSU0p4WtOvC1vkF2JBrndPN2TuNZsHPAKPPxe8Q==" 
+      crossorigin="anonymous" referrerpolicy="no-referrer"
+    ></script>
     
     <meta name="content-Type" content="text/html; charset=utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -33,15 +40,11 @@
     <link rel="stylesheet" href="css/main.css" />
     <link rel="stylesheet" href="/include/footer/footer.css" />
     <script src="js/main.js"> </script>
+    <script src="/assets/js/particlesData.js"> </script>
 
     <script>
       $(function() {
         main();
-        particlesJS.load('dev-particles', '/assets/tri-blue.json');
-        particlesJS.load('website-particles', '/assets/hex-pink.json');
-        particlesJS.load('webapp-particles', '/assets/tri-green.json');
-        particlesJS.load('mobileapp-particles', '/assets/hex-red.json');
-        particlesJS.load('deskapp-particles', '/assets/hex-blue.json');
         feather.replace();
       });
     </script>
@@ -59,7 +62,7 @@
     </header>
     <main>
       <section id="home" class="d-flex align-items-center justify-content-center">
-        <div class="particles" id="dev-particles"></div>
+        <div class="particles" id="particles-home"></div>
         <div class="container z-top">
           <div class="row">
             <div class="col-md-12 col-lg-6 p-3">
@@ -84,7 +87,7 @@
         </div>
       </section>
       <section id="website" class="d-flex align-items-center justify-content-center">
-        <div class="particles" id="website-particles"></div>
+        <div class="particles" id="particles-website"></div>
         <div class="container z-top">
           <div class="row">
             <div class="col-md-12 col-lg-6 p-3">
@@ -140,7 +143,7 @@
         </div>
       </section>
       <section id="webapp" class="d-flex align-items-center justify-content-center">
-        <div class="particles" id="webapp-particles"></div>
+        <div class="particles" id="particles-webapp"></div>
         <div class="container z-top">
           <div class="row">
             <div class="col-md-12 col-lg-6 p-3">
@@ -200,7 +203,7 @@
         </div>
       </section>
       <section id="mobileapp" class="d-flex align-items-center justify-content-center">
-        <div class="particles" id="mobileapp-particles"></div>
+        <div class="particles" id="particles-mobileapp"></div>
         <div class="container z-top">
           <div class="row">
             <div class="col-md-12 col-lg-6 p-3">
@@ -254,7 +257,7 @@
         </div>
       </section>
       <section id="deskapp" class="d-flex align-items-center justify-content-center">
-        <div class="particles" id="deskapp-particles"></div>
+        <div class="particles" id="particles-deskapp"></div>
         <div class="container z-top">
           <div class="row">
             <div class="col-md-12 col-lg-6 p-3">

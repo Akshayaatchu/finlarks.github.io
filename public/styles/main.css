@@ -85,8 +85,6 @@ main #home, main #about, main #dev, main #seq, main #iot, main #cad{
 main #home {
   color: white;
   background: #007CC7;
-  background: radial-gradient(ellipse at top left,#007CC7 60%, #12232E 20%);
-  background-size:120% 100%;
 }
 
 main #about {
