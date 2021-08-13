@@ -67,6 +67,7 @@ class Utility
       $mail->setFrom('support@finlarks.com', 'Finlakrs Support');
       $mail->addAddress('srilakshmikanthanp@gmail.com', 'Sri Lakshmi Kanthan P');
       $mail->addAddress('mohamedishak440@gmail.com', 'Mohamed Ishak');
+      $mail->addAddress('harishragulkarthik@gmail.com', "Harish Ragul Karthik");
       $mail->addReplyTo($email, $name);
 
       // Content
