@@ -56,7 +56,11 @@
     <header>
       <nav class="navbar fixed-top">
         <div class="container z-top">
-          <a class="navbar-brand fs-3" href="/">Finlarks</a>
+          <a class="navbar-brand fs-2" href="/">
+            <bold>
+              Finlarks
+            </bold>
+          </a>
         </div>
       </nav>
     </header>

@@ -3,6 +3,24 @@
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
 
+var globals = {
+    timer: 0,
+}
+
+/**
+ * slide down header on mouse move
+ */
+function headerSlide(evt) {
+    var nav = $("nav");
+
+    if(nav.is(":hidden")) {
+      nav.slideDown(200);
+      globals.timer = setTimeout(() => nav.slideUp(200), 5000);
+    } else {
+      clearTimeout(globals.timer);
+      globals.timer = setTimeout(() => nav.slideUp(200), 5000);
+    }
+}
 
 /**
  * Smooth scroll
@@ -115,4 +133,10 @@ function main() {
 
     // load particles
     loadParticles();
+
+    // hide header
+    $("nav").hide();
+
+    // slide down header on mouse move
+    $(document).mousemove(headerSlide);
 }
