@@ -76,7 +76,6 @@ header nav a:hover {
 
 main #home, main #about, main #dev, main #seq, main #iot, main #cad{
   min-height: 100vh;
-  padding-top: 90px;
   position: relative;
   scroll-snap-align: center;
   scroll-snap-stop: always;
